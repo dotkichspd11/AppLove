@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ThiCuoiKy</string>
+    <string name="textview1">APP CHỌN NGƯỜI YÊU</string>
+    <string name="textview2">Đang phân vân ah? Điền thông tin vào danh sách bên dưới mình lựa chọn cho!</string>
+    <string name="textview3">BẠN NÊN CHỌN</string>
+    <string name="ten1">Ngoc Trinh</string>
+    <string name="tuoi1">21</string>
+    <string name="ten2">My Nu</string>
+    <string name="tuoi2">20</string>
+    <string name="ten3">Minh Hang</string>
+    <string name="tuoi3">25</string>
+    <string name="button1">CHỌN</string>
+    <string name="button2">NHẬP LẠI</string>
+    <string name="button3">THOÁT</string>
+    <string name="tuoi1b">21 tuổi</string>
+    <string name="tuoi2b">20 tuổi</string>
+    <string name="tuoi3b">25 tuổi</string>
+    <string name="textview1b">Lý do: mùa Covid này đỡ cạp đất mà ăn :))</string>
+    <string name="button1b">CẢM ƠN, ĐÚNG Ý MÌNH RỒI</string>
+    <string name="button2b">CHỌN LẠI ĐỨA KHÁC XEM</string>
+    <string name="button3b">THOÁT</string>
+</resources>

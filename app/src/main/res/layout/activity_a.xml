@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activityA"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:textSize="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/textview1"
+            android:textColor="#FF69B4" />
+
+        <TextView
+            android:textSize="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/textview2"/>
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="214dp"
+
+            android:layout_gravity="center"
+            android:src="@drawable/love" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:id="@+id/idmot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1."/>
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tenmot"
+            android:hint="Tên"
+            android:text="@string/ten1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tuoimot"
+            android:hint="Tuổi"
+            android:text="@string/tuoi1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:id="@+id/idhai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2."/>
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tenhai"
+            android:hint="Tên"
+            android:text="@string/ten2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tuoihai"
+            android:hint="Tuổi"
+            android:gravity="center"
+            android:text="@string/tuoi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:id="@+id/idba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3."/>
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tenba"
+            android:hint="Tên"
+            android:text="@string/ten3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tuoiba"
+            android:hint="Tuổi"
+            android:gravity="center"
+            android:text="@string/tuoi3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:id="@+id/idbon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4."/>
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tenbon"
+            android:hint="Tên"
+            android:text=""
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tuoibon"
+            android:hint="Tuổi"
+            android:gravity="center"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:id="@+id/idnam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5."/>
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tennam"
+            android:hint="Tên"
+            android:text=""
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_tuoinam"
+            android:hint="Tuổi"
+            android:gravity="center"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <Button
+        android:id="@+id/btnChon"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/button1"
+        />
+        <Button
+            android:id="@+id/btnNhap"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/button2"
+            />
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/button3"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
